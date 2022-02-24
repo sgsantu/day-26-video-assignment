@@ -1,0 +1,128 @@
+@media(max-width:1028px){
+    .fixdwidth {
+        width: 100%;
+        margin: auto;
+        
+      }
+
+      .header-left img {
+        height: 50px;
+        
+        margin: 7px 0px 0px 7px;
+      }
+
+      .servisses .about-text p {
+        width: 100%;
+        margin: auto;
+      }
+
+
+      /* service-section */
+      .service-section {
+        padding: 20px 14px;
+        border-bottom: 5px solid red;
+      }
+
+      /*  blog section  */
+      .blog-section {
+        padding: 40px 14px;
+      }
+      /*  footer-section  */
+      .footer-section {
+        background-color: black;
+        color: #fff;
+        padding: 10px 14px;
+      }
+}
+
+
+/* 700px  */
+@media(max-width:700px){
+    /* ----=-=-=- header  ----=-=-=- */
+    .header-left {
+        width: 100%;
+        text-align: center;
+      }
+
+      .header-right {
+        width: 100%;
+        text-align: center;
+      }
+
+      .header-right ul li a{
+        border: none;
+      }
+      .header-right ul li:first-child {
+        border-left: none;
+      }
+
+
+      /* banner */
+      .banner-text {
+        padding: 142px 0px;
+        
+      }
+
+
+
+      /* blog secsation */
+      .blog-section-right {
+        width: 34%;
+        float: right;
+      }
+
+      .blog-section-left {
+        width: 60%;
+        float: left;
+      }
+
+
+      /* footer */
+      .footer-section .footer-left {
+        width: 100%;
+        font-size: 20px;
+        float: left;
+        text-align: center;
+        margin: 12px 0px;
+      }
+
+      .footer-section .footer-right {
+        width: 100%;
+        float: right;
+        text-align: center;
+      }
+      .footer-section .footer-right ul {
+        list-style: none;
+        text-align: center;
+      }
+}
+
+
+@media(max-width:565px){
+  .service-item {
+    width: 100%;
+    border: 1px solid;
+    margin: 10px 0px;
+  }
+
+  .blog-section-left {
+    width: 100%;
+  }
+  .blog-section-right {
+    width: 100%;
+    
+  }
+}
+
+@media(max-width:480px){
+
+  .header-right ul li a {
+    padding: 0px 14px;
+  }
+  .banner-text h1 {
+    font-size: 20px;
+  }
+  .banner-text h2 {
+    font-size: 12px;
+  }
+}
